@@ -6,7 +6,8 @@ includeSubsets:
   name: GF_Latin_Core
 - from: Noto Sans Linear B
   ranges:
-    - start: 0x10100
-      end: 0x10133
+  - end: 65843
+    start: 65792
+recipeProvider: noto
 sources:
 - NotoSansLinearA.designspace
